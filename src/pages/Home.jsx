@@ -14,6 +14,8 @@ export default function Home() {
 <div>
     <button className=' flex flex-col  '>
   <a href="/Admin">Admin</a> </button>
+  <button className=' flex flex-col  '>
+  <a href="/Portfolio">Portfolio</a> </button>
   </div>
 </header>
 
