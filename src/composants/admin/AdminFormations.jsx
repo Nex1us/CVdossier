@@ -28,7 +28,7 @@ export default function AdminFormations() {
     if (response.ok) {
       const data = await response.json();
       console.log(data);
-      enqueueSnackbar("une formation à été supprimé", {
+      enqueueSnackbar("La formation à été supprimé", {
         variant: "error",
         autoHideDuration: 2000,
         anchorOrigin: {
@@ -52,7 +52,7 @@ export default function AdminFormations() {
       if (response.ok) {
         const data = await response.json();
         console.log(data);
-        enqueueSnackbar("une formation a été ajouté", {
+        enqueueSnackbar("la formation a été ajouté ", {
           variant: "success",
           autoHideDuration: 2000,
           anchorOrigin: {

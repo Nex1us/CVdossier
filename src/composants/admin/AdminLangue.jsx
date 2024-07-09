@@ -67,7 +67,7 @@ export default function AdminLangue() {
         <div className="flex justify-between">
           <input
             className="text-black"
-            placeholder="ajouter une nouvelle compétence"
+            placeholder="ajouter une  langue"
             type="text"
             value={name}
             onChange={(e) => {

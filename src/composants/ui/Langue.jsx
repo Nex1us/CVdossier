@@ -14,11 +14,11 @@ export default function Langue() {
   }, []);
   return (
     <div>
-      <h2>LANGUE</h2>
+      <h2 className="bg-green-950 rounded-xl">LANGUE</h2>
       <table>
         <tbody>
           {langues.map((item, index) => (
-            <tr key={index.id}>
+            <tr className="flex space-x-4" key={index.id}>
               <td>{item.name}</td>
               <td>{item.level}</td>
             </tr>

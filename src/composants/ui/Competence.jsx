@@ -14,11 +14,19 @@ export default function Competence() {
       fetchCompetence();
     },[])
   return (
-    <div>
-      <h2 className="bg-blue-500 rounded-xl" >COMPETENCES</h2>
-      <ul>
-        {competence.map(item => <li key={item._id}>{item.skill}</li>)}
-      </ul>
+    <div className='rounded-xl  border-5'>
+      <h2 className="bg-green-950 rounded-xl" >COMPETENCES</h2>
+      <table>
+    <tbody>
+      {competence.map((item) => (
+<tr>
+  <td> {item.skill} </td>
+
+</tr>
+      ))}
+          </tbody>
+        
+      </table>
     </div>
   )
 }

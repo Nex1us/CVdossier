@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Profile({nom,prenom}) {
     const taille = {
-        width:'100px',
-        height:'100px'
+        width:'400px',
+        height:'400px'
     }
   return (
     <div >

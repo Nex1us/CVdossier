@@ -83,7 +83,7 @@ export default function AdminLoisir() {
         <div className="flex justify-between">
           <input
             className="text-black"
-            placeholder="ajouter une nouvelle compétence"
+            placeholder="ajouter un loisir"
             type="text"
             value={loisir}
             onChange={(e) => setLoisir(e.target.value)}

@@ -21,9 +21,9 @@ export default function Contact() {
   return (
     <div>
       {contact.length > 0 && (
-        <div>
+        <div className="flex flex-col ml-8 justify-center ">
           <Profile nom={contact[0].nom} prenom={contact[0].prenom} />
-          <h2 className="bg-blue-500 rounded-xl">Contact</h2>
+          <h2 className="bg-green-950 rounded-xl">Contact</h2>
           <table>
             <tr>
               <th> tel</th>
@@ -34,6 +34,7 @@ export default function Contact() {
               <td>{ contact[0].email }</td>
             </tr>
           </table>
+          <p>Jeune étudiant à la recherche d'une alternance pour le poste de développeur web.</p>
         </div>
       )}
     </div>
