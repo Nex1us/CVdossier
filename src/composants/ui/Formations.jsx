@@ -15,7 +15,7 @@ export default function Formations() {
   }, []);
   return (
     <div>
-      <h2 className="bg-green-950 rounded-xl">FORMATION</h2>
+      <h2 className="bg-green-400 rounded-xl">FORMATION</h2>
       <table>
         <tbody>
           {formation.map((item, index) => (

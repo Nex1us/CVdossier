@@ -23,7 +23,7 @@ export default function Contact() {
       {contact.length > 0 && (
         <div className="flex flex-col ml-8 justify-center ">
           <Profile nom={contact[0].nom} prenom={contact[0].prenom} />
-          <h2 className="bg-green-950 rounded-xl">Contact</h2>
+          <h2 className="bg-green-400 rounded-xl">Contact</h2>
           <table>
             <tr>
               <th> tel</th>

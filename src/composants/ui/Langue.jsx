@@ -14,7 +14,7 @@ export default function Langue() {
   }, []);
   return (
     <div>
-      <h2 className="bg-green-950 rounded-xl">LANGUE</h2>
+      <h2 className="bg-green-400 rounded-xl">LANGUE</h2>
       <table>
         <tbody>
           {langues.map((item, index) => (

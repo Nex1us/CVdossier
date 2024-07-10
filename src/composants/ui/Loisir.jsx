@@ -16,7 +16,7 @@ export default function Loisir() {
 
 return (
     <div>
-        <h2 className="bg-green-950 rounded-xl">LOISIR</h2>
+        <h2 className="bg-green-400 rounded-xl">LOISIR</h2>
         <ul>{hobby.map(item => (<li key={item._id}>{item.loisir}</li>))}
         </ul>
     </div>

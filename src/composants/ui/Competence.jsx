@@ -15,7 +15,7 @@ export default function Competence() {
     },[])
   return (
     <div className='rounded-xl  border-5'>
-      <h2 className="bg-green-950 rounded-xl" >COMPETENCES</h2>
+      <h2 className="bg-green-400 rounded-xl" >COMPETENCES</h2>
       <table>
     <tbody>
       {competence.map((item) => (
