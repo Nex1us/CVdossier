@@ -38,7 +38,7 @@ function handleSubmit(e) {
       <AdminCompetence/>
       <AdminLoisir />
       <AdminLangue />
-        <AdminFormations/>
+     <AdminFormations/>
 
     </div>
 

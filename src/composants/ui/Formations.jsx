@@ -16,13 +16,13 @@ export default function Formations() {
   return (
     <div>
       <h2 className="bg-green-400 rounded-xl">FORMATION</h2>
-      <table>
+      <table className="">
         <tbody>
           {formation.map((item, index) => (
-            <tr key={index}>
-              <td>{item.year}</td>
-              <td>{item.location}</td>
-              <td>{item.experience}</td>
+            <tr key={index} className="">
+              <td className="w-1/6">{item.year}</td>
+              <td className="w-2/6">{item.location}</td>
+              <td className="w-2/6">{item.experience}</td>
             </tr>
           ))}
         </tbody>

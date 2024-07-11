@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
 <div className='p-12  bg-white flex flex-wrap flex-col '>
-<header>
+<header className='bg-emerald-700'>
 <div>
     <button className=' flex flex-col text-black '>
   <a href="/Admin">Admin</a> </button>
@@ -20,11 +20,11 @@ export default function Home() {
 </header>
 
 
-  <div className='flex text-black  justify-between p-12 border-spacing-2 rounded-xl border-5 bg-blue-500 shadow-blue-800 shadow-2xl w-5/6 ml-32'>
+  <div className='flex text-black  justify-between p-12 border-spacing-2 rounded-xl border-5 bg-blue-500 shadow-blue-800 shadow-2xl w-6/6 '>
 <Contact/>
 
   </div>
-  <div className=' text-black flex flex-wrap justify-center  space-x-36 ml-32 border-spacing-2 rounded-xl bg-blue-500 shadow-blue-800 shadow-2xl mt-12 w-5/6'>
+  <div className=' text-black flex flex-wrap justify-center  space-x-36 border-spacing-2 rounded-xl bg-blue-500 shadow-blue-800 shadow-2xl mt-12 w-6/6'>
   <div  className='  justify-between p-12 border-spacing-2 rounded-xl border-5 '> 
 <Competence />
 
@@ -36,7 +36,7 @@ export default function Home() {
     <Loisir/>
   </div>
   </div>
-  <div className='flex-wrap text-black justify-between p-12 border-spacing-2 rounded-xl bg-blue-500 shadow-blue-800 shadow-2xl ml-32 m-12 w-5/6'>
+  <div className='flex text-black  justify-between p-12 border-spacing-2 rounded-xl border-5 bg-blue-500 shadow-blue-800 shadow-2xl mt-12 w-6/6'>
   <Formations/>
   </div>
 

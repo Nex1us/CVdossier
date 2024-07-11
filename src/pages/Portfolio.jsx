@@ -5,12 +5,12 @@ export default function Portfolio() {
 
 
   <div className='flex flex-wrap justify-start flex-row bg-white text-black h-screen w-screen'>
-  <div className='flex flex-col'>
-    <button className=' flex flex-col  '>
+  <header className='flex flex-row justify-between bg-emerald-700'>
+    <button className=' flex  '>
 <a href="/">Home</a> </button>
-<button className=' flex flex-col '>
+<button className=' flex  '>
 <a href="/Admin">Admin</a> </button>
-  </div>
+  </header>
 <div className='flex justify-center'>
     <div className='w-3/6'>
        <img src="meteo.png" alt="" />
